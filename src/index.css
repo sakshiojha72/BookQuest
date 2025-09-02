@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    
+    background-color: black; 
+    color: white;
+}
+
+canvas {
+    pointer-events: none;
+}
+
+span.growing{
+    background-color: #fd2c2a;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+  
