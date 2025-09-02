@@ -7,6 +7,7 @@ import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import { Circ, Expo } from "gsap/all";
 import SlidingCardsSection from "./SlidingCardsSection";
+import me from "./me.png";
 
 function App() {
   const headingref = useRef(null);
