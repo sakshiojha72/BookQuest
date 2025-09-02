@@ -125,7 +125,8 @@ function App() {
           {data[3].map((canvasdets, index) => (
             <Canvas details={canvasdets} key={index} />
           ))}
-            <img className="w-[30%]" src={me} alt="Me" />
+            <img className="w-[30%]" src="/me.png" alt="Me" />
+
 
           
           <SlidingCardsSection />
